@@ -22,11 +22,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC     &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                            &kp N6     &kp N7      &kp N8     &kp N9   &kp N0    &kp MINUS
-&kp TAB     &kp Q   &kp W   &kp E     &kp R     &kp T                                             &kp Y      &kp U       &kp I      &kp O    &kp P     &kp BACKSLASH
-&kp LSHIFT  &kp A   &kp S   &kp D     &kp F     &kp G                                             &kp H      &kp J       &kp K      &kp L    &kp SEMI  &kp SQT
-&mo 1       &kp Z   &kp X   &kp C     &kp V     &kp B          &kp LEFT_PARENTHESIS    &kp GRAVE  &kp N      &kp M       &kp COMMA  &kp DOT  &kp FSLH  &mo 2
-                            &kp LALT  &kp LGUI  &kp BACKSPACE  &kp SPACE               &kp RET    &kp LCTRL  &kp DELETE  &kp RGUI
+&kp ESC     &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                                              &kp N6     &kp N7      &kp N8     &kp N9   &kp N0        &kp MINUS
+&kp TAB     &kp Q   &kp W   &kp E     &kp R     &kp T                                                               &kp Y      &kp U       &kp I      &kp O    &kp P         &kp BACKSLASH
+&kp LSHIFT  &kp A   &kp S   &kp D     &kp F     &kp G                                                               &kp H      &kp J       &kp K      &kp L    &kp SEMI      &kp SQT
+&mo 1       &kp Z   &kp X   &kp C     &kp V     &kp B          &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS    &kp GRAVE  &kp N      &kp M       &kp COMMA  &kp DOT  &kp QUESTION  &mo 2
+                            &kp LALT  &kp LGUI  &kp BACKSPACE  &kp SPACE                                 &kp RET    &kp LCTRL  &kp DELETE  &none
             >;
         };
 
@@ -35,7 +35,7 @@
 &none   &kp F1    &kp F2          &kp F3    &kp F4                &kp F5                                         &kp F6             &kp F7                 &kp F8        &kp F9           &kp F10    &kp F11
 &none   &kp EXCL  &kp AT          &kp HASH  &kp DOLLAR            &kp PERCENT                                    &kp CARET          &kp AMPERSAND          &kp ASTERISK  &kp PLUS         &kp EQUAL  &kp F12
 &none   &none     &kp LEFT_BRACE  &kp LBKT  &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE                               &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp RBKT      &kp RIGHT_BRACE  &kp PIPE   &none
-&trans  &none     &none           &none     &none                 &kp SLASH         &kp HOME    &kp END          &kp BACKSLASH      &none                  &none         &none            &none      &none
+&trans  &none     &none           &none     &kp LESS_THAN         &kp SLASH         &kp HOME    &kp END          &kp BACKSLASH      &kp GREATER_THAN       &none         &none            &none      &none
                                   &none     &none                 &none             &none       &kp PRINTSCREEN  &none              &none                  &none
             >;
         };
